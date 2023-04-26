@@ -17,7 +17,7 @@ int get_input(); // get user input
 int main()
 {
 	inventory records;
-	int choice;
+	int choice = 0;
 
 	do
 	{
