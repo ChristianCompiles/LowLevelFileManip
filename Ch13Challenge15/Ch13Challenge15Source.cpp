@@ -1,7 +1,7 @@
 /*
 Programmer: Christian Penick
 Purpose: Store inventory information in a binary file
-Date Modified: 05/11/2022
+Date Modified: 05/11/2022, 04/26/2023
 Compiler: MS VC++ 2022
 */
 
@@ -17,7 +17,7 @@ int get_input(); // get user input
 int main()
 {
 	inventory records;
-	int choice = 0;
+	int choice;
 
 	do
 	{
@@ -84,5 +84,6 @@ int get_input()// get user input
 	cin >> choice;
 	cin.clear();
 	cin.ignore(100, '\n');
+
 	return check_input(choice);
 }

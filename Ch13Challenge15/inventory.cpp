@@ -57,7 +57,6 @@ void inventory::addRec() // add to the end of the binary file
 
 	do
 	{
-		cin.ignore();
 		cout << "Enter inventory information:\n";
 		cout << "Item Description: ";
 		getline(cin, input);
